@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^0.6.1",
+    "@types/node": "^18"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.8",
+    "microcms-js-sdk": "^2.5.0",
+    "nuxt": "^3.4.3",
+    "nuxt-microcms-module": "^3.0.2"
+  }
+}
