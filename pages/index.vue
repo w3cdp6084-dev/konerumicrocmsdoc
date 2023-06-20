@@ -1,7 +1,7 @@
 <template>
     <div>
         <ul>
-            <li v-for="blog in data?.contents" :key="blog.id">
+            <li v-for="blog in data?.contents" :key="blog.id" class="card">
                 <NuxtLink :to="`/${blog.id}`">
                     <img
                         :src="blog.eyecatch?.url"
