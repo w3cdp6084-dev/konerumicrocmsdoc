@@ -20,6 +20,7 @@
     "@types/three": "^0.152.1",
     "dayjs": "^1.11.8",
     "gsap": "^3.12.1",
+    "lottie-web": "^5.12.2",
     "microcms-js-sdk": "^2.5.0",
     "nuxt": "^3.4.3",
     "nuxt-microcms-module": "^3.0.2",
